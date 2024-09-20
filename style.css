@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Warang Citi';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.box{
+    width: 50vw;
+    height: fit-content;
+    /* border: 2px solid black; */
+    padding: 5vw;
+}
+
+.Center{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1vw;
+}
+
+.Center img{
+    width: 4vw;
+    height: 4vw;
+    rotate: -10deg;
+}
+
+.create_note{
+    margin-top: 1vw;
+    gap: .3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 10vw;
+    line-height: 2vw;
+    padding: .5vw;
+    background:linear-gradient(#9418fd,#571094);
+    outline: none;
+    border: none;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.create_note i{
+    font-size: 1.8vw;
+}
+
+.input-box{
+    /* display: none; */
+    position: relative;
+    width: 100%;
+    max-width: 40vw;
+    min-height: 25vh;
+    background: #fff;
+    color: black;
+    padding: 1vw;
+    margin: 2vw 0;
+    outline: none; 
+}
+
+.input-box img{
+    width: 1.5vw;
+    position: absolute;
+    bottom: 1vw;
+    right: .8vw;
+    cursor: pointer;
+}
